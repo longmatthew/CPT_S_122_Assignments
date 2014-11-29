@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-Entry File.
-=======
-entry file.
->>>>>>> 848a13f9f2446847215b8a56338fea7e367d6656
