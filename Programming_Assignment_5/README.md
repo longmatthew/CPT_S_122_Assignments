@@ -4,3 +4,4 @@ a very simple desgin for a program although it only keeps track of one back acco
 The account class should hold some vectors for name, account balance, account number if the design needed to be reformatted 
 to hold more than one account.
 
+This code is not permitted for submission of any homework, quiz, test, or any other procedure that requires the testing of a student or peer.
