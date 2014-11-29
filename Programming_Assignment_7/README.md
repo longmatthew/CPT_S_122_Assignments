@@ -5,3 +5,5 @@ held within the message that needs to be corrected.
 
 The encryption generates a random number and then shifts the alphabet on that number. Instead it should substitute each letter
 at random instead of shifting.
+
+If you wish to use this code for your own, please be advised that this is for user knowledge only. This code is not permitted for submission of any homework, quiz, test, or any other procedure that requires the testing of a student or peer.
