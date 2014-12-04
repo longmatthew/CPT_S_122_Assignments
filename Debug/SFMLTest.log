@@ -1,0 +1,16 @@
+﻿Build started 12/3/2014 10:50:39 PM.
+     1>Project "C:\Users\MatthewLong\documents\visual studio 2013\Projects\SFMLTest\SFMLTest\SFMLTest.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Setup\SFML-2.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Healthbar.cpp main.cpp
+         main.cpp
+         Healthbar.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\MatthewLong\documents\visual studio 2013\Projects\SFMLTest\Debug\SFMLTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Setup\SFML-2.1\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-main-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\MatthewLong\documents\visual studio 2013\Projects\SFMLTest\Debug\SFMLTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\MatthewLong\documents\visual studio 2013\Projects\SFMLTest\Debug\SFMLTest.lib" /MACHINE:X86 Debug\Healthbar.obj
+         Debug\main.obj
+         SFMLTest.vcxproj -> C:\Users\MatthewLong\documents\visual studio 2013\Projects\SFMLTest\Debug\SFMLTest.exe
+     1>Done Building Project "C:\Users\MatthewLong\documents\visual studio 2013\Projects\SFMLTest\SFMLTest\SFMLTest.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.88
