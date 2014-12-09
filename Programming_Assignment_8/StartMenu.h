@@ -1,30 +1,26 @@
 #ifndef _START_MENU_
 #define _START_MENU_
 
-#include "AbstractMenu.h"
+#include "TotalHeaderFile.h"
 
-#include <string>
-#include "SFML\Graphics.hpp"
-
-class StartMenu : public AbstractMenu
+class StartMenu
 {
 	public:
-		StartMenu(sf::RenderWindow * renderWindow);
+		void Show(sf::RenderWindow &renderWindow);
 		~StartMenu();
+		enum MenuSelection { doNothing, Exit, Play };
 
-		int Display() = 0;
-		void updateDisplay() = 0;
-		int getMenuSelection() = 0;
-		int mouseClick(int x, int y) = 0;
+		struct MenuButton
+		{
+			public:
+				sf::Rect<int> RectangleButton;
+				MenuSelection ButtonClick;
+		};
 
 	private:
-		MenuButton startGameButton;
-		MenuButton exitGameButton;
-
-		sf::Text GameTitle;
-		sf::Text NewGame;
-		sf::Text ExitGame;
-
+		list<MenuButton> menuType;
+		sf::Text Playbutton;
+		sf::Text Exitbutton;
 };
 
 #endif
