@@ -65,15 +65,15 @@ char *encryption(char str[], int key){
 		for (i = 0; i < length; i++){ // Iterate the length of the string.
 			if (isalpha(str[i])){ // The encryption will only be performed on alphabetical characters only.
 				encrypt[i] = (toupper(str[i]) - 'A' + key) % 26 + 'A'; /* The encryption changes the user input to all upper case letters
-																		  then subtracts it from the value of the capital letter A with
-																		  the addition of the key enetered. This calculation is then based
-																		  on the modulo of the number of alphabetic characters to remain
-																		  within the alphabet. The addition of the last A is to calculate
-																		  the final position of the shift.*/
+											  then subtracts it from the value of the capital letter A with
+											  the addition of the key enetered. This calculation is then based
+											  on the modulo of the number of alphabetic characters to remain
+											  within the alphabet. The addition of the last A is to calculate
+											  the final position of the shift.*/
 			}
 			else{
 				encrypt[i] = str[i]; // If the string entered encounters a special or numeric character it simply places
-									 // in the same position of the holder.
+						     // in the same position of the holder.
 			}
 		}
 		encrypt[i] = '\0'; // This is, as mentioned before, a null terminator that will deallocate the rest of the initialized array size.
@@ -121,14 +121,14 @@ char *decryption(char str[], int key){
 		for (i = 0; i < length; i++){
 			if (isalpha(str[i])){
 				decrypt[i] = (toupper(str[i]) + 'Z' - 26 - key) % 26 + 'A' + 1; /* The decryption is calculated from the user input passed in all upper case letters
-																			   then is subtracted from the value of A with the addition of all leters in the alphabet
-																			   with the addition of the key enetered modulo number of letters in the alphabet plus
-																			   the letter A. It will parse through the alphabet based on the key enetered and direction
-																			   since it is a decryption the algorithm is a bit more complicated.*/
+												then is subtracted from the value of A with the addition of all leters in the alphabet
+												with the addition of the key enetered modulo number of letters in the alphabet plus
+												the letter A. It will parse through the alphabet based on the key enetered and direction
+												since it is a decryption the algorithm is a bit more complicated.*/
 			}
 			else{
 				decrypt[i] = str[i]; // If the string entered encounters a special or numeric character it simply places
-									 // in the same position of the holder.
+						     // in the same position of the holder.
 			}
 		}
 		decrypt[i] = '\0'; // Ditto.
